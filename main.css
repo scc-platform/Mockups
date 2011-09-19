@@ -1,0 +1,49 @@
+html,body {
+	padding: 0px;
+	margin: 0px;
+}
+#PageWrapper {
+	text-align: center;
+	background: #eee;
+}
+#Page {
+	margin: 0px auto;
+	text-align: left;
+	width: 95%;
+	max-width: 800px;
+	background: #fff;
+}
+#Header h1 {
+	font-family: sans-serif;
+	padding: 5px;
+	margin: 0;
+}
+#Header h2 {
+	font-family: sans-serif;
+	padding: 4px;
+	margin: 0;
+}
+#Body {
+	font-size: 12pt;
+	padding: 10px;
+}
+#Body form.giant {
+	display: block;
+	padding: 20px 50px;
+	font-size: 14pt;
+}
+#Body form.giant ul {
+	padding: 0px;
+}
+#Body form.giant ul li {
+	padding: 10px 0;
+	list-style-type: none;
+}
+
+#Body form.giant label {
+	display: block;
+}
+#Footer {
+	text-align: center;
+	font-size: 10pt;
+}
