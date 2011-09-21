@@ -62,11 +62,15 @@ html,body {
 #Body form.giant label {
 	display: block;
 }
-ul.teamList li {
+#Body ul.teamList li {
 	list-style-type: none;
 	padding: 10px 10px 10px 45px;
 }
-ul.teamList li.member {
+#Body ul.teamList li.member {
 	background: url('avatar.png') no-repeat;
 	max-height: 40px;
+}
+#Footer {
+	text-align: center;
+	font-size: 8pt;
 }
