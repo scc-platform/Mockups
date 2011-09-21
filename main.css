@@ -43,7 +43,11 @@ html,body {
 #Body form.giant label {
 	display: block;
 }
-#Footer {
-	text-align: center;
-	font-size: 10pt;
+ul.teamList li {
+	list-style-type: none;
+	padding: 10px 10px 10px 45px;
+}
+ul.teamList li.member {
+	background: url('avatar.png') no-repeat;
+	max-height: 40px;
 }
