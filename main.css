@@ -69,6 +69,17 @@ html,body {
 #Body ul.teamList li.member {
 	background: url('avatar.png') no-repeat;
 	max-height: 40px;
+	margin: 20px;
+}
+#Body ul.teamList li.member div.name {
+	font-size: 14pt;
+	color: green;
+}
+#Body ul.teamList li.member div.email {
+	font-size: 12pt;
+}
+#Body ul.teamList li.member div.status {
+	font-size: 10pt;	
 }
 #Body div.sendMessageWrapper {
 	margin: 10px 40px;
