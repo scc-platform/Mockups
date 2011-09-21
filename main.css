@@ -34,6 +34,14 @@ html,body {
 	display: inline;
 	list-style-type: none;
 }
+#Menu ul li a {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: black;
+}
+#Menu ul li.current a {
+	font-weight: bold;
+}
 #Body {
 	font-size: 12pt;
 	padding: 10px;
