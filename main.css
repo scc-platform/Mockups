@@ -23,6 +23,17 @@ html,body {
 	padding: 4px;
 	margin: 0;
 }
+#Menu {
+	border-bottom: 2px solid red;
+}
+#Menu ul {
+	padding:1px;
+	margin: 0;
+}
+#Menu ul li {
+	display: inline;
+	list-style-type: none;
+}
 #Body {
 	font-size: 12pt;
 	padding: 10px;
