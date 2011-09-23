@@ -103,6 +103,31 @@ html,body {
 	text-align: right;
 	clear: both;
 }
+#Body table.messages tr td {
+	margin: 0px;
+	padding: 2px;
+}
+#Body table.messages tr.alternate {
+	background: #ccc;
+}
+#Body table.messages td.from {
+	font-size:10pt
+}
+#Body table.messages td.category ul {
+	padding: 0; 
+	margin: 0;
+}
+#Body table.messages td.category ul li {
+	font-size:10pt;
+	list-style-type: none;
+	margin: 0;
+	padding: 2px;
+}
+#Body table.messages td.to {
+	font-size:10pt
+}
+#Body table.messages td.status {
+}
 #Footer {
 	text-align: center;
 	font-size: 8pt;
