@@ -128,6 +128,17 @@ html,body {
 }
 #Body table.messages td.status {
 }
+#Body table.messages td.comments ul li {
+	text-align: right;
+	list-style-type: none;
+	font-size: 10pt;
+}
+#Body table.messages td.comments ul li span.comment {
+	font-style: italic;
+}
+#Body table.messages td.comments ul li form input[type="text"] {
+	width: 80%;
+}
 #Footer {
 	text-align: center;
 	font-size: 8pt;
