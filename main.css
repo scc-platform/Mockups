@@ -90,11 +90,18 @@ html,body {
 	width: 100%;
 	height: 40px;
 }
-#Body div.sendMessageWrapper form ul li {
+#Body div.sendMessageWrapper form ul.categories li {
 	list-style-type: none;	
+}
+#Body div.sendMessageWrapper form ul.users li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	list-style-type: none;
 }
 #Body div.sendMessageWrapper form div.submit {
 	text-align: right;
+	clear: both;
 }
 #Footer {
 	text-align: center;
