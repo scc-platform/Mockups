@@ -145,6 +145,9 @@ html,body {
 #Body table.communicationMethods {
 	margin: 10px auto;
 }
+#Body table.communicationMethods td.details {
+	padding: 10px;
+}
 #Body table.communicationMethods td.details div.title {
 	font-size: 12pt;
 }
@@ -153,6 +156,7 @@ html,body {
 }
 #Body table.communicationMethods td.actions {
 	font-size: 10pt;
+	padding: 10px;
 }
 #Footer {
 	text-align: center;
