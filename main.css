@@ -146,7 +146,14 @@ html,body {
 	margin: 10px auto;
 }
 #Body table.communicationMethods td.details {
-	padding: 10px;
+	padding: 10px 10px 10px 40px;
+	min-height: 50px; 
+}
+#Body table.communicationMethods tr.email td.details {
+	background: url('email.png') no-repeat;
+}
+#Body table.communicationMethods tr.mobile td.details {
+	background: url('mobile.png') no-repeat;
 }
 #Body table.communicationMethods td.details div.title {
 	font-size: 12pt;
