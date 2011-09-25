@@ -142,6 +142,18 @@ html,body {
 #Body table.messages td.comments ul li form input[type="text"] {
 	width: 80%;
 }
+#Body table.communicationMethods {
+	margin: 10px auto;
+}
+#Body table.communicationMethods td.details div.title {
+	font-size: 12pt;
+}
+#Body table.communicationMethods td.details div.details {
+	font-size: 14pt;
+}
+#Body table.communicationMethods td.actions {
+	font-size: 10pt;
+}
 #Footer {
 	text-align: center;
 	font-size: 8pt;
